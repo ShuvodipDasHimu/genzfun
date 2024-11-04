@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+}
+
+header .logo {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(47, 2, 2);
+  height: 90px;
+
+}
+
+.navbar .links {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li{
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: white  ;
+  text-transform: uppercase;
+  border-radius: 16px;
+  border: 3px solid red;
+  padding: 6px 20px;
+  transition: 0.2s ease-out;
+}
+
+.navbar ul li a:hover{
+  font-size: large;
+  padding: 10px 22px;
+}
+
+.navbar .action-btn {
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 16px;
+  border: 3px solid red;
+  padding: 6px 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.navbar .action-btn:hover {
+  font-size: large;
+  padding: 6px 18px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(10, 74, 39, 0.245);
+  height: calc(100vh - 60px);
+}
